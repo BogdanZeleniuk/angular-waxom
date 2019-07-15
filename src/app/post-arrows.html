@@ -1,0 +1,60 @@
+<div class="posts">
+          <div class="post">
+            <div class="post_head">
+              <img src="../assets/img/post_shoose.png" alt="" class="post_img">
+              <div class="day">30</div>
+              <div class="month">Sep.</div>
+              <div class="slider_inner post_slider">
+                <span id="dot_01" class="intro_dot"></span>
+                <span id="dot_02" class="intro_dot active_dot"></span>
+                <span id="dot_03" class="intro_dot"></span>
+                <span id="dot_04" class="intro_dot"></span>
+                <span id="dot_05" class="intro_dot"></span>
+              </div>
+            </div>
+            <div class="post-desc">
+              <h4 class="title_post_desc">
+                Lorem ipsum dolor sit amet
+              </h4>
+              <h5 class="post_desc_text">
+                Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.
+              </h5>
+              <a href="#" class="read_more_post_btn">Read More</a> 
+            </div>
+          </div>
+          <div class="post">
+            <div class="post_head">
+              <img src="../assets/img/post_notebook.png" alt="" class="post_img post_active_img">
+              <div class="day day_active">30</div>
+              <div class="month month_active">Sep.</div>
+            </div>
+            <div class="post-desc post_active">
+              <h4 class="title_post_desc post_desc_title_active">
+                Lorem ipsum dolor sit amet
+              </h4>
+              <h5 class="post_desc_text post_desc_text_active">
+              Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.
+              </h5>
+              <a href="#" class="read_more_post_btn post_btn_active">Read More</a> 
+            </div>
+          </div>
+          <div class="post">
+            <div class="post_head">
+              <img src="../assets/img/post_sheep.png" alt="" class="post_img">
+              <div class="day">30</div>
+              <div class="month">Sep.</div>
+            </div>
+            <div class="post-desc">
+              <h4 class="title_post_desc">
+                Lorem ipsum dolor sit amet
+              </h4>
+              <h5 class="post_desc_text">
+                Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</h5>
+              <a href="#" class="read_more_post_btn">Read More</a>  
+            </div>
+          </div>
+        </div>
+<div class="posts_arrows">
+          <a class="left_post" (click)="onLeftClick($event)" #left_post></a>
+          <a class="right_post" #right_post (click)="onRightClick($event)"></a>
+</div>

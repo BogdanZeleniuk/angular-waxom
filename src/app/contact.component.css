@@ -1,0 +1,19 @@
+.contact{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	max-width: 1150px;
+	background-color: grey; 
+	background-position: center top;
+	margin: 0;
+	padding: 0;
+}
+.title-contact{
+	font: 32px 'Montserrat', sans-serif;
+	width: 100%;
+	max-width: 350px;
+}
+.contact-pict{
+	width: 100%;
+	max-width: 800px;
+}

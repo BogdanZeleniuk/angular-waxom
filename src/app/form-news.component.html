@@ -1,0 +1,18 @@
+<section id="waxom_form_news" class="waxom_form_news">
+    <div class="news_form">
+      <form class="publish" id="publish" method="GET">
+        <div class="news_box">
+          <div class="news_window" [ngClass]="{close_window:isOpen}">
+            <a class="close_news"><i class="fa fa-times-circle" id="close_news_btn" (click)="toggle()"></i></a>
+            <p class="news_desc">
+              If you want to have the list of news, please push "Reload news" button first, and than "Read it". As a result you will have all new news in last 30 minutes.Enjoy!
+            </p>
+            <div class="news_btns">
+              <input type="button" class="news_btn" id="news_read" value="Reload news"/>
+              <input type="button" id="news_reload" class="news_btn" value="Read news"/>  
+            </div>
+          </div>  
+        </div>
+      </form>
+    </div>  
+  </section>

@@ -1,0 +1,98 @@
+.container {
+	width: 100%;
+	max-width: 1150px;
+	margin: 0 auto;
+}
+.header_inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo_box {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo_name {
+	font: 34px 'Raleway', sans-serif;	
+	color: #ffffff;
+	cursor: pointer;
+	padding: 0;
+	margin: 0;
+}
+.menu ul {
+	font-size: 14px;
+	display: inline-flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+.menu_link {
+	margin: 0 30px 0 0;
+	color: #ffffff;
+	display: inline-block;
+	vertical-align: top;
+	transition: color .4s linear;
+}
+.menu li:nth-child(10) a {
+	background: url(../assets/img/icon-search-menu.png) no-repeat;
+	background-size: contain;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+}
+.menu li:nth-child(10):hover,
+.menu li:nth-child(9):hover {
+	filter: brightness(60%);
+	transition: filter .4s linear;
+}
+.menu li:nth-child(9) a {
+	background: url(../assets/img/icon-calendar-menu.png) no-repeat;
+	background-size: contain;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	margin-left: 70px;
+}
+.datetime {
+	display: none;
+}
+.datetime.datetime_open {
+	display: block;
+	margin-top: 30px;
+}
+.search_inner_elem {
+	display: none;
+}
+.btn_search_elem {
+	display: none;
+}
+.btn_search_elem.btn_search_elem_open {
+	display: block;
+	color: #708090;
+	width: 70px;
+	text-align: center;
+	margin: 5px auto;
+	padding: 5px 10px;
+	border: 2px solid #8a2be2;
+	margin-top:40px;
+	position: absolute;
+}
+.search_inner_elem.search_inner_elem_open {
+	display: block;
+	position: absolute;
+	margin-top: 20px;
+}
+.menu_link:nth-child(9):hover {
+	filter: brightness(60%);
+	transition: filter .4s linear;
+}
+.menu_link:nth-child(2) {
+	color: #80776b;
+}
+.menu_link:hover {
+	color: #1a1a19;
+}
+.active {
+	color:red;
+}

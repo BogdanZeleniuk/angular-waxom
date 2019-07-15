@@ -1,0 +1,37 @@
+      <div class="second_menu_logo" id="menu_copy" (load) = show() [style.display]="isOpened==true?'block':'none'">
+        <a class="second_menu_icon"><i class="fa fa-toggle-down" (click)="toggle()"></i></a>
+          <div class="second_menu" id="second_menu" [ngClass]="{second_menu_open:isClicked}">
+          <ul>
+            <li>
+              <a class="menu_link" routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Home</a>
+            </li>
+            <li>
+              <a class="menu_link" routerLink="/about" routerLinkActive="active">About Us</a>
+            </li>
+            <li>
+              <a class="menu_link" routerLink="/portfolio" routerLinkActive="active">Portfolio</a>
+            </li>
+            <li>
+              <a class="menu_link" routerLink="/features" routerLinkActive="active">Features</a>
+            </li>
+            <li>
+              <a class="menu_link" routerLink="/blog" routerLinkActive="active">Blog</a>
+            </li>
+            <li>
+              <a class="menu_link" routerLink="/pricing" routerLinkActive="active">Pricing</a>
+            </li>
+            <li>
+              <a class="menu_link" routerLink="/shortcodes" routerLinkActive="active">Shortcodes</a>
+            </li>
+            <li>
+              <a class="menu_link" routerLink="/contact" routerLinkActive="active">Contact</a>
+            </li>
+            <li>
+              <a class="menu_link calendar" id="calendar"></a>
+            </li>
+            <li>
+              <a class="menu_link search_icon" id="search_icon"></a>
+            </li>
+          </ul>
+          </div>
+      </div>

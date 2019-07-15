@@ -1,0 +1,9 @@
+.not_found_box{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-image: url("../assets/img/10_waxomportfolio_errorpage.png");
+	background-repeat: no-repeat;
+}

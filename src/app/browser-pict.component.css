@@ -1,0 +1,26 @@
+.browser_pictures {
+	width: 100%;
+	max-width: 1150px;
+	margin: 0 auto;
+	position: relative;
+}
+.browser_left {
+	margin: 0 0 0 -40px;
+	z-index: 1;
+	display: inline-block;
+}
+.browser_center {
+	z-index: 10;
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	left: 0;
+	margin: -80px auto;
+}
+.browser_right {
+	right: 0;
+	z-index: 5;
+	display: inline-block;
+	position: absolute;
+	margin: 0 -40px 0 0;
+}

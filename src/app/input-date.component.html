@@ -1,0 +1,50 @@
+<header>
+    <div class="container">
+      <div class="header_inner">
+        <div class="logo_box">
+          <a href="#"><img src="../assets/img/logo.png" alt="logo" class="logo"></a>
+          <div class="logo_name">Waxom</div>
+        </div>
+        
+        <nav class="menu">
+          <ul>
+            <li>
+              <a class="menu_link" routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Home</a>
+            </li>
+            <li>
+              <a class="menu_link" routerLink="/about" routerLinkActive="active">About Us</a>
+            </li>
+            <li>
+              <a class="menu_link" routerLink="/portfolio" routerLinkActive="active">Portfolio</a>
+            </li>
+            <li>
+              <a class="menu_link" routerLink="/features" routerLinkActive="active">Features</a>
+            </li>
+            <li>
+              <a class="menu_link" routerLink="/blog" routerLinkActive="active">Blog</a>
+            </li>
+            <li>
+              <a class="menu_link" routerLink="/pricing" routerLinkActive="active">Pricing</a>
+            </li>
+            <li>
+              <a class="menu_link" routerLink="/shortcodes" routerLinkActive="active">Shortcodes</a>
+            </li>
+            <li>
+              <a class="menu_link" routerLink="/contact" routerLinkActive="active">Contact</a>
+            </li>
+            <li>
+              <a class="menu_link calendar" id="calendar" (click)="toggle()" (clickOutside)="close()">
+                <input type="datetime-local" class="datetime" [ngClass]="{datetime_open: visibility}" [value]="date"/>
+              </a>
+            </li>
+            <li>
+              <a class="menu_link search_icon" id="search_icon" (click)="toggleSearch()" (clickOutsideInput)="closeInput()"> 
+                <input type="search" class="search_inner_elem" [ngClass]="{search_inner_elem_open:isOpened}"/>
+                <button class="btn_search_elem" [ngClass]="{btn_search_elem_open:isOpened}">Search</button>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
